@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>InvestasiEnergy - Beranda</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>InvestasiEnergy ⚡</h1>
+  </header>
+
+  <nav class="navbar">
+    <a href="index.html" class="active">Beranda</a>
+    <a href="#" onclick="showAlert('Fitur Pesanan belum tersedia')">Pesanan</a>
+    <a href="#" onclick="showAlert('Fitur Tim belum tersedia')">Tim</a>
+    <a href="#" onclick="showAlert('Forum masih dalam pengembangan')">Forum</a>
+    <a href="profil.html">Profil</a>
+  </nav>
+
+  <main>
+    <section class="card">
+      <h2>VIP Eksklusif 1</h2>
+      <p>Durasi: 35 hari</p>
+      <p>Pendapatan harian: Rp 30.000</p>
+      <p>Total: Rp 1.050.000</p>
+      <button onclick="beliPaket('VIP1')">Beli</button>
+    </section>
+
+    <section class="card">
+      <h2>VIP Eksklusif 2</h2>
+      <p>Durasi: 60 hari</p>
+      <p>Pendapatan harian: Rp 50.000</p>
+      <p>Total: Rp 3.000.000</p>
+      <button onclick="beliPaket('VIP2')">Beli</button>
+    </section>
+  </main>
+</body>
+</html>
